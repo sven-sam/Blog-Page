@@ -1,0 +1,213 @@
+.start {
+        background-image: url('image/wallpaperflare.com_wallpaper (11).jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh; 
+        position: relative;
+}
+
+.container {
+    max-height: 100vh; 
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+nav{
+    
+    background-color: rgba(51, 51, 51, 0.7);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items:center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+}
+
+.left-nav {
+    flex: 6;
+    font-family: 'Josefin Sans',sans-serif;
+    display:flex ;
+    align-items: center;
+}
+
+.right-nav {
+    flex: 6;
+    align-items: center;
+    padding-left: 70%;
+    display: flex;
+
+}
+
+.profile-image {
+    width: 40px; 
+    height: 30px; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+.no-underline {
+    text-decoration: none;
+  }
+
+.tit{
+    position: absolute;
+    font-size: 8em;
+    color: black;
+    font-family: 'Fauna One', serif; 
+    left: 50%;
+    top:10%;
+    transform: translate(-50%, -50%);    
+    z-index: 2;
+}
+
+main {
+    max-width: 800px;
+    margin: 10% auto;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    margin: 0;
+    margin-bottom: 40px;
+    border-bottom: 0px solid #ccc;
+    padding-bottom: 20px;
+    
+    top: 50%; 
+    left: 0;
+    width: 100%;
+   
+}
+
+.section {
+    width: 30%; 
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: inline-block; 
+    box-sizing: border-box;
+    vertical-align: bottom;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.section:hover {
+    transform: scale(1.16);
+}
+
+.section img {
+    width: 100%; 
+    height: 100%; 
+    border-radius: 8px; 
+}
+
+.haikyuu
+{
+    height: 200px;
+    width: 200px;
+} 
+
+.jujutsu
+{
+    height: 200px;
+    width: 200px;
+}
+
+.demon
+{
+    height: 200px;
+    width: 200px;
+}
+
+.cont {
+    max-width: fit-content;
+}
+
+.cont h2 {
+    color: rgb(142, 227, 255);
+    margin: 0;
+}
+
+.cont p {
+   
+    color: white;
+    font-size: large;
+}
+
+
+.line
+{
+    border-color: black; 
+    margin-top: 50px; 
+}
+
+.news
+{
+    background-image: url("image/wallpaperflare.com_wallpaper (4).jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.image-container {
+    margin-right: 20px;
+}
+
+
+h2 {
+    color: rgb(255, 139, 62);
+    
+}
+
+h1{
+    padding-left: 20px;
+    font-size: 2em;
+    color: rgb(255, 0, 0);
+}
+
+p {
+    line-height: 1.6;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
